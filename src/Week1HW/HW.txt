@@ -1,0 +1,28 @@
+Hi Team,
+
+Please use the shared homework_invoices.csv file and complete the following task.
+
+1. Create a Python program named:
+   01_read_invoice.py
+
+2. Read all invoice records from the given CSV file using Python.
+
+3. For each invoice, read and check the following details:
+   - Vendor
+   - Amount
+   - Status
+
+4. Check the invoice amount:
+   - Identify invoices where the amount is greater than 100,000.
+   - Identify missing or invalid amount values.
+
+5. Use try / except to handle invalid amount values so that the program continues processing the remaining records.
+
+6. Print a simple summary at the end:
+   - Total invoices read
+   - Number of invoices greater than 100,000
+   - Number of invoices with missing/invalid amount
+
+Expected Flow:
+
+Read CSV → Read Each Invoice → Check Amount → Handle Invalid Data → Print Summary
